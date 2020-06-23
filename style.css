@@ -1,0 +1,133 @@
+body {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://wallpaperaccess.com/full/1393245.jpg) top left no-repeat fixed;
+  background-size: cover;
+  font-size: 1.3rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Jost', Calibri, Arial;
+  color: white;
+  background-color: rgba(47, 8, 72, .8);
+}
+
+#description {
+  line-height: 150%;
+  font: italic Light 'Josa', Calibri, Arial;
+}
+
+section {
+  width: 100%;
+  background-color: rgba(47, 8, 72, .8);
+  font-family: 'Jost', Calibri, Arial;
+  font-weight: 300;
+  color: white;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 25%;
+  background-color: rgba(0, 0, 0, .6);
+  padding: 30px 45px 20px 30px;
+  border-radius: 5px;
+}
+
+input[type=text],
+input[type=number],
+input[type=email] {
+  padding: 10px;
+  height: 20px;
+  margin: 10px 0 0 0;
+  width: 100%;
+  border: transparent;
+  font-family: 'Jost', Calibri, Arial;
+  font-size: 17px;
+}
+
+#radio-title {
+  margin: 0 0 5px 0;
+}
+
+input[type=radio] {
+  width: 20px;
+  height: 20px;
+  margin: 7px 0;
+  vertical-align: middle;
+  border: 2px solid white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#dropdown {
+  width: 101%;
+  padding: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  font-family: 'Jost', Calibri, Arial;
+  font-size: 17px;
+}
+
+input[type=checkbox] {
+  width: 19px;
+  height: 19px;
+  margin: 5px 8px 8px 0px;
+  cursor: pointer;
+  vertical-align: center;
+}
+
+#checkbox-title {
+  margin-bottom: 8px;
+}
+
+.text-input {
+  width: 100%;
+  height: 1.6em;
+  border-radius: 0.3em;
+}
+
+p#textarea-title {
+  padding: 0 0 5px 0;
+}
+
+#textarea {
+  padding: 8px;
+  max-width: 101%;
+  width: 99%;
+  outline: none;
+  resize: none;
+  font-family: 'Jost', Calibri, Arial;
+  font-size: 17px;
+}
+
+button[type=submit] {
+  width: 102.3%;
+  padding: .7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #48B666;
+  color: #ffffff;
+  font-family: 'Jost', Calibri, Arial;
+  outline: none;
+  border: transparent;
+}
+
+#dropdown-title,
+#radio-title,
+#checkbox-title,
+#name-label,
+#email-label,
+#number-label,
+#textarea-title {
+  font-weight: 400;
+}

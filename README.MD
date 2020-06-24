@@ -27,7 +27,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The ***Survey Form***, is a form to improve a Community, made for the course [Responsive Web Design](https://www.freecodecamp.org/learn/), with **HTML**, **CSS** and **Javascript**.
+The ***Survey Form***, is a form to improve a Community, made for the course [Responsive Web Design](https://www.freecodecamp.org/learn/), with **HTML** and **CSS**.
 
 ## 🔖 Layout
 
